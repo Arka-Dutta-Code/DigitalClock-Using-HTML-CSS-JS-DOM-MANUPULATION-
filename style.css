@@ -1,0 +1,42 @@
+/* Center everything on the page */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #010220;
+  color: white;
+}
+
+/* Center wrapper */
+.center {
+  text-align: center;
+  background-color: #111133;
+  padding: 40px 60px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+/* Banner */
+#banner {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #155dfc;
+}
+
+/* Clock display */
+#clock {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #222244;
+  padding: 20px 40px;
+  border-radius: 10px;
+  display: inline-block;
+  letter-spacing: 2px;
+  box-shadow: inset 0 0 5px #000;
+}
